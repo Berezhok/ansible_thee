@@ -21,12 +21,12 @@
 ### Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.
 ### Прописали diff и check все норм
 ### Единственное я прописал хардКод 
-repo: "https://github.com/VKCOM/lighthouse.git"
-        version: master
-        dest: "/usr/share/nginx/html/lighthouse/"
+### repo: "https://github.com/VKCOM/lighthouse.git"
+###        version: master
+###        dest: "/usr/share/nginx/html/lighthouse/"
 ### Не могу понять почему не работает если беру переменные
-lighthouse_vcs: "https://github.com/VKCOM/lighthouse.git"
-lighthous_local_dir: "/usr/share/nginx/html/lighthouse/"
+### lighthouse_vcs: "https://github.com/VKCOM/lighthouse.git"
+### lighthous_local_dir: "/usr/share/nginx/html/lighthouse/"
 ### Подготовьте README.md-файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
 ### Готовый playbook выложите в свой репозиторий, поставьте тег 08-ansible-03-yandex на фиксирующий коммит, в ответ предоставьте ссылку на него.
 ### Как оформить решение задания
